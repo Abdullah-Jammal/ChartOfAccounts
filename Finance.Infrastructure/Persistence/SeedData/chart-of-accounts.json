@@ -1,0 +1,6176 @@
+﻿[
+  {
+    "code": 1,
+    "nameAr": "الموجودات",
+    "level": 1,
+    "parentCode": null,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 2,
+    "nameAr": "المطلوبات",
+    "level": 1,
+    "parentCode": null,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 3,
+    "nameAr": "الاستخدامات",
+    "level": 1,
+    "parentCode": null,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 4,
+    "nameAr": "الموارد",
+    "level": 1,
+    "parentCode": null,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 5,
+    "nameAr": "مراقبة كراكز الانتاج",
+    "level": 1,
+    "parentCode": null,
+    "type": "CostCenter",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 6,
+    "nameAr": "مراقبة كراكز الخدمات الانتاجية",
+    "level": 1,
+    "parentCode": null,
+    "type": "CostCenter",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 7,
+    "nameAr": "مراقبة كراكز الخدمات التسويفية",
+    "level": 1,
+    "parentCode": null,
+    "type": "CostCenter",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 8,
+    "nameAr": "مراقبة كراكز الخدمات الادرارية",
+    "level": 1,
+    "parentCode": null,
+    "type": "CostCenter",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 9,
+    "nameAr": "مراقبة كراكز الخدمات الرأسمالية",
+    "level": 1,
+    "parentCode": null,
+    "type": "CostCenter",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 11,
+    "nameAr": "الموجودات الثابتة",
+    "level": 2,
+    "parentCode": 1,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 12,
+    "nameAr": "مشروعات تحت التنفيذ",
+    "level": 2,
+    "parentCode": 1,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 13,
+    "nameAr": "المخزون",
+    "level": 2,
+    "parentCode": 1,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 14,
+    "nameAr": "القروض الممنوحة",
+    "level": 2,
+    "parentCode": 1,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 15,
+    "nameAr": "الاستثمارات المالية",
+    "level": 2,
+    "parentCode": 1,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 16,
+    "nameAr": "المدينون",
+    "level": 2,
+    "parentCode": 1,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 18,
+    "nameAr": "النقود",
+    "level": 2,
+    "parentCode": 1,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 19,
+    "nameAr": "الحسابات المتقابلة المدينة",
+    "level": 2,
+    "parentCode": 1,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 21,
+    "nameAr": "رأس المال",
+    "level": 2,
+    "parentCode": 2,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 22,
+    "nameAr": "الاحتياطيات",
+    "level": 2,
+    "parentCode": 2,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 23,
+    "nameAr": "التخصيصات",
+    "level": 2,
+    "parentCode": 2,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 24,
+    "nameAr": "القروض المستلمة",
+    "level": 2,
+    "parentCode": 2,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 25,
+    "nameAr": "المصارف الدائنة",
+    "level": 2,
+    "parentCode": 2,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 26,
+    "nameAr": "الدائنون",
+    "level": 2,
+    "parentCode": 2,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 28,
+    "nameAr": "حساب العمليات الجارية",
+    "level": 2,
+    "parentCode": 2,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 29,
+    "nameAr": "الحسابات المتقابلة الدائنة",
+    "level": 2,
+    "parentCode": 2,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 31,
+    "nameAr": "رواتب وإجور",
+    "level": 2,
+    "parentCode": 3,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 32,
+    "nameAr": "المستلزمات السلعية",
+    "level": 2,
+    "parentCode": 3,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 33,
+    "nameAr": "المستلزمات الخدمية",
+    "level": 2,
+    "parentCode": 3,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 34,
+    "nameAr": "مقاوالت وخدمات",
+    "level": 2,
+    "parentCode": 3,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 35,
+    "nameAr": "مشتريات البضائع والأراضي بغرض البيع",
+    "level": 2,
+    "parentCode": 3,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 36,
+    "nameAr": "الفوائد واستئجار الأراضي",
+    "level": 2,
+    "parentCode": 3,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 37,
+    "nameAr": "الاندثار",
+    "level": 2,
+    "parentCode": 3,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 38,
+    "nameAr": "المصروفات التحويلية",
+    "level": 2,
+    "parentCode": 3,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 39,
+    "nameAr": "المصروفات الأخرى",
+    "level": 2,
+    "parentCode": 3,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 41,
+    "nameAr": "إيراد النشاط السلعي",
+    "level": 2,
+    "parentCode": 4,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 42,
+    "nameAr": "إيراد النشاط التجاري",
+    "level": 2,
+    "parentCode": 4,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 43,
+    "nameAr": "إيراد النشاط الخدمي",
+    "level": 2,
+    "parentCode": 4,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 44,
+    "nameAr": "إيراد التشغيل للغير",
+    "level": 2,
+    "parentCode": 4,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 45,
+    "nameAr": "كلفة الموجودات المصنعة داخلياً",
+    "level": 2,
+    "parentCode": 4,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 46,
+    "nameAr": "فوائد وإيجارات الأراضي",
+    "level": 2,
+    "parentCode": 4,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 47,
+    "nameAr": "الإعانات",
+    "level": 2,
+    "parentCode": 4,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 48,
+    "nameAr": "الإيرادات التحويلية",
+    "level": 2,
+    "parentCode": 4,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 49,
+    "nameAr": "الإيرادات الأخرى",
+    "level": 2,
+    "parentCode": 4,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 111,
+    "nameAr": "أراضي",
+    "level": 3,
+    "parentCode": 11,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 112,
+    "nameAr": "مباني وإنشاءات وطرق",
+    "level": 3,
+    "parentCode": 11,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 113,
+    "nameAr": "آالت ومعدات",
+    "level": 3,
+    "parentCode": 11,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 114,
+    "nameAr": "وسائط نقل وانتقال",
+    "level": 3,
+    "parentCode": 11,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 115,
+    "nameAr": "عدد وقوالب",
+    "level": 3,
+    "parentCode": 11,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 116,
+    "nameAr": "أثاث وأجهزة مكاتب",
+    "level": 3,
+    "parentCode": 11,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 117,
+    "nameAr": "الموجودات الحية لأغراض العرض والإنتاج",
+    "level": 3,
+    "parentCode": 11,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 118,
+    "nameAr": "نفقات إيرادية مؤجلة",
+    "level": 3,
+    "parentCode": 11,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 121,
+    "nameAr": "أراضي",
+    "level": 3,
+    "parentCode": 12,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 122,
+    "nameAr": "مباني وإنشاءات وطرق",
+    "level": 3,
+    "parentCode": 12,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 123,
+    "nameAr": "آالت ومعدات",
+    "level": 3,
+    "parentCode": 12,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 124,
+    "nameAr": "وسائط نقل وانتقال",
+    "level": 3,
+    "parentCode": 12,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 125,
+    "nameAr": "عدد وقوالب",
+    "level": 3,
+    "parentCode": 12,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 126,
+    "nameAr": "أثاث وأجهزة مكاتب",
+    "level": 3,
+    "parentCode": 12,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 127,
+    "nameAr": "الموجودات الحية لأغراض العرض والإنتاج",
+    "level": 3,
+    "parentCode": 12,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 128,
+    "nameAr": "نفقات إيرادية مؤجلة",
+    "level": 3,
+    "parentCode": 12,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 129,
+    "nameAr": "أنفاق استثماري",
+    "level": 3,
+    "parentCode": 12,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 131,
+    "nameAr": "مخزون الخامات والمواد الأولية",
+    "level": 3,
+    "parentCode": 13,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 132,
+    "nameAr": "مخزون الوقود والزيوت",
+    "level": 3,
+    "parentCode": 13,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 133,
+    "nameAr": "مخزون الأدوات الاحتياطية",
+    "level": 3,
+    "parentCode": 13,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 134,
+    "nameAr": "مخزون مواد التعبئة والتغليف",
+    "level": 3,
+    "parentCode": 13,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 135,
+    "nameAr": "مخزون المتنوعات",
+    "level": 3,
+    "parentCode": 13,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 136,
+    "nameAr": "مخزون الإنتاج",
+    "level": 3,
+    "parentCode": 13,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 137,
+    "nameAr": "مخزون البضائع والأراضي بغرض البيع",
+    "level": 3,
+    "parentCode": 13,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 138,
+    "nameAr": "اعتمادات مستندية لشراء مواد",
+    "level": 3,
+    "parentCode": 13,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 139,
+    "nameAr": "مخزون المواد الأخرى",
+    "level": 3,
+    "parentCode": 13,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 141,
+    "nameAr": "قروض ممنوحة طويلة الأجل",
+    "level": 3,
+    "parentCode": 14,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 142,
+    "nameAr": "قروض ممنوحة قصيرة الأجل",
+    "level": 3,
+    "parentCode": 14,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 151,
+    "nameAr": "استثمارات طويلة الأجل",
+    "level": 3,
+    "parentCode": 15,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 152,
+    "nameAr": "استثمارات قصيرة الأجل",
+    "level": 3,
+    "parentCode": 15,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 161,
+    "nameAr": "مدينون تجاريون",
+    "level": 3,
+    "parentCode": 16,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 162,
+    "nameAr": "أوراق قبض",
+    "level": 3,
+    "parentCode": 16,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 163,
+    "nameAr": "حسابات جارية مدينة",
+    "level": 3,
+    "parentCode": 16,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 164,
+    "nameAr": "سلف التعهدات الثانوية",
+    "level": 3,
+    "parentCode": 16,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 165,
+    "nameAr": "مدينو النشاط غير الجاري",
+    "level": 3,
+    "parentCode": 16,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 166,
+    "nameAr": "حسابات مدينة متنوعة",
+    "level": 3,
+    "parentCode": 16,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 167,
+    "nameAr": "سلف",
+    "level": 3,
+    "parentCode": 16,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 181,
+    "nameAr": "نقدية بالصندوق",
+    "level": 3,
+    "parentCode": 18,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 182,
+    "nameAr": "سلف مستديمة",
+    "level": 3,
+    "parentCode": 18,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 183,
+    "nameAr": "نقدية لدى المصارف",
+    "level": 3,
+    "parentCode": 18,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 184,
+    "nameAr": "نقدية لدى الخزائن",
+    "level": 3,
+    "parentCode": 18,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 185,
+    "nameAr": "صكوك وحوالات",
+    "level": 3,
+    "parentCode": 18,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 191,
+    "nameAr": "حركة الإنتاج التام بسعر البيع",
+    "level": 3,
+    "parentCode": 19,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 192,
+    "nameAr": "حسابات الالتزامات المدينة",
+    "level": 3,
+    "parentCode": 19,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 193,
+    "nameAr": "حسابات بالقيمة الرمزية",
+    "level": 3,
+    "parentCode": 19,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 194,
+    "nameAr": "حسابات النتيجة المدينة",
+    "level": 3,
+    "parentCode": 19,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 195,
+    "nameAr": "موجودات أثرية وفنية",
+    "level": 3,
+    "parentCode": 19,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 211,
+    "nameAr": "رأس المال المدفوع",
+    "level": 3,
+    "parentCode": 21,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 212,
+    "nameAr": "رأس المال صافي الموجودات",
+    "level": 3,
+    "parentCode": 21,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 213,
+    "nameAr": "راس المال الم تبرع به",
+    "level": 3,
+    "parentCode": 21,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 221,
+    "nameAr": "احتياطيات رأسمالية",
+    "level": 3,
+    "parentCode": 22,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 222,
+    "nameAr": "احتياطي عام",
+    "level": 3,
+    "parentCode": 22,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 223,
+    "nameAr": "احتيا طيات متنوعة",
+    "level": 3,
+    "parentCode": 22,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 224,
+    "nameAr": "الفائض المتراكم",
+    "level": 3,
+    "parentCode": 22,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 225,
+    "nameAr": "العجز المتراكم",
+    "level": 3,
+    "parentCode": 22,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 231,
+    "nameAr": "مخصص الاندثار المتراكم",
+    "level": 3,
+    "parentCode": 23,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 232,
+    "nameAr": "مخصص الديون المشكوك في تحصيلها",
+    "level": 3,
+    "parentCode": 23,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 234,
+    "nameAr": "مخصص مصروفات الشراء",
+    "level": 3,
+    "parentCode": 23,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 235,
+    "nameAr": "مخصص خسائر متوقعة لمشاريع قيد الإنجاز",
+    "level": 3,
+    "parentCode": 23,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 236,
+    "nameAr": "مخصص مصاريف الصيانة المحتملة",
+    "level": 3,
+    "parentCode": 23,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 237,
+    "nameAr": "مخصص هبوط أسعار المخزون السلعي",
+    "level": 3,
+    "parentCode": 23,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 238,
+    "nameAr": "مخصص هبوط الاستثمارات المالية",
+    "level": 3,
+    "parentCode": 23,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 239,
+    "nameAr": "تخصيصات متنوعة",
+    "level": 3,
+    "parentCode": 23,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 241,
+    "nameAr": "قروض مستلمة طويلة الأجل",
+    "level": 3,
+    "parentCode": 24,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 242,
+    "nameAr": "قروض مستلمة قصيرة الأجل",
+    "level": 3,
+    "parentCode": 24,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 251,
+    "nameAr": "جاري مكشوف",
+    "level": 3,
+    "parentCode": 25,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 261,
+    "nameAr": "مجهزون تجاريون",
+    "level": 3,
+    "parentCode": 26,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 262,
+    "nameAr": "أوراق الدفع",
+    "level": 3,
+    "parentCode": 26,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 263,
+    "nameAr": "حسابات جارية دائنة",
+    "level": 3,
+    "parentCode": 26,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 264,
+    "nameAr": "حسابات التعهدات",
+    "level": 3,
+    "parentCode": 26,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 265,
+    "nameAr": "دائنو نشاط غير جاري",
+    "level": 3,
+    "parentCode": 26,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 266,
+    "nameAr": "حسابات دائنة متنوعة",
+    "level": 3,
+    "parentCode": 26,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 267,
+    "nameAr": "استقطاعات لحساب الغير",
+    "level": 3,
+    "parentCode": 26,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 268,
+    "nameAr": "دائنو توزيع الأرباح",
+    "level": 3,
+    "parentCode": 26,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 281,
+    "nameAr": "حساب النشاط الجاري",
+    "level": 3,
+    "parentCode": 28,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 291,
+    "nameAr": "مقابل حركة الإنتاج التام بسعر البيع",
+    "level": 3,
+    "parentCode": 29,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 292,
+    "nameAr": "حسابات الالتزامات الدائنة",
+    "level": 3,
+    "parentCode": 29,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 293,
+    "nameAr": "مقابل حسابات بالقيمة الرمزية",
+    "level": 3,
+    "parentCode": 29,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 294,
+    "nameAr": "حسابات النتيجة الدائنة",
+    "level": 3,
+    "parentCode": 29,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 295,
+    "nameAr": "مقابل موجودات أثرية وفنية",
+    "level": 3,
+    "parentCode": 29,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 311,
+    "nameAr": "الرواتب النقدية للموظفين",
+    "level": 3,
+    "parentCode": 31,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 312,
+    "nameAr": "الأجور النقدية للعمال",
+    "level": 3,
+    "parentCode": 31,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 313,
+    "nameAr": "رواتب وإجور ومخصصات غير العراقيين",
+    "level": 3,
+    "parentCode": 31,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 314,
+    "nameAr": "المساهمة في الضمان الاجتماعي للموظفين",
+    "level": 3,
+    "parentCode": 31,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 315,
+    "nameAr": "المساهمة في الضمان الاجتماعي للعمال",
+    "level": 3,
+    "parentCode": 31,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 316,
+    "nameAr": "المساهمة في الضمان الاجتماعي لغير العراقيين",
+    "level": 3,
+    "parentCode": 31,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 321,
+    "nameAr": "الخامات والمواد الأولية",
+    "level": 3,
+    "parentCode": 32,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 322,
+    "nameAr": "الوقود والزيوت",
+    "level": 3,
+    "parentCode": 32,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 323,
+    "nameAr": "الأدوات الاحتياطية",
+    "level": 3,
+    "parentCode": 32,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 324,
+    "nameAr": "مواد التعبئة والتغليف",
+    "level": 3,
+    "parentCode": 32,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 325,
+    "nameAr": "المتنوعات",
+    "level": 3,
+    "parentCode": 32,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 326,
+    "nameAr": "تجهيزات للعاملين",
+    "level": 3,
+    "parentCode": 32,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 327,
+    "nameAr": "المياه والكهرباء",
+    "level": 3,
+    "parentCode": 32,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 329,
+    "nameAr": "مستلزمات سلعية أخرى",
+    "level": 3,
+    "parentCode": 32,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 331,
+    "nameAr": "خدمات صيانة",
+    "level": 3,
+    "parentCode": 33,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 332,
+    "nameAr": "خدمات أبحاث واستشارات",
+    "level": 3,
+    "parentCode": 33,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 333,
+    "nameAr": "دعاية وطبع وضيافة",
+    "level": 3,
+    "parentCode": 33,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 334,
+    "nameAr": "نقل وإيفاد واتصالات",
+    "level": 3,
+    "parentCode": 33,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 335,
+    "nameAr": "استئجار موجودات ثابتة",
+    "level": 3,
+    "parentCode": 33,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 336,
+    "nameAr": "مصروفات خدمية متنوعة",
+    "level": 3,
+    "parentCode": 33,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 341,
+    "nameAr": "مقاوالت ثانوية",
+    "level": 3,
+    "parentCode": 34,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 342,
+    "nameAr": "خدمات التشغيل",
+    "level": 3,
+    "parentCode": 34,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 351,
+    "nameAr": "مشتريات البضائع بغرض البيع",
+    "level": 3,
+    "parentCode": 35,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 352,
+    "nameAr": "مشتريات الأراضي بغرض البيع",
+    "level": 3,
+    "parentCode": 35,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 361,
+    "nameAr": "فوائد مدينة",
+    "level": 3,
+    "parentCode": 36,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 362,
+    "nameAr": "استئجار الأراضي",
+    "level": 3,
+    "parentCode": 36,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 372,
+    "nameAr": "اندثار مباني وإنشاءات وطرق",
+    "level": 3,
+    "parentCode": 37,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 373,
+    "nameAr": "اندثار آالت ومعدات",
+    "level": 3,
+    "parentCode": 37,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 374,
+    "nameAr": "اندثار وسائط نقل وانتقال",
+    "level": 3,
+    "parentCode": 37,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 375,
+    "nameAr": "اندثار عدد وقوالب",
+    "level": 3,
+    "parentCode": 37,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 376,
+    "nameAr": "اندثار أثاث وأجهزة مكاتب",
+    "level": 3,
+    "parentCode": 37,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 377,
+    "nameAr": "إهالك موجودات حية لأغراض العرض والإنتاج",
+    "level": 3,
+    "parentCode": 37,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 378,
+    "nameAr": "إطفاء نفقات مؤجلة",
+    "level": 3,
+    "parentCode": 37,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 381,
+    "nameAr": "نفقات التقاعد والضمان الاجتماعي",
+    "level": 3,
+    "parentCode": 38,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 382,
+    "nameAr": "المساهمة في نفقات الوحدات الاقتصادية الرئيسة أو التابعة",
+    "level": 3,
+    "parentCode": 38,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 383,
+    "nameAr": "مصروفات تحويلية متنوعة",
+    "level": 3,
+    "parentCode": 38,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 384,
+    "nameAr": "ضرائب ورسوم",
+    "level": 3,
+    "parentCode": 38,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 385,
+    "nameAr": "إعان ات",
+    "level": 3,
+    "parentCode": 38,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 391,
+    "nameAr": "مصروفات سنوات سابقة",
+    "level": 3,
+    "parentCode": 39,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 392,
+    "nameAr": "مصروفات عرضية",
+    "level": 3,
+    "parentCode": 39,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 393,
+    "nameAr": "خسائر رأسمالية",
+    "level": 3,
+    "parentCode": 39,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 394,
+    "nameAr": "خسائر متوقعة لمشاريع قيد الإنجاز",
+    "level": 3,
+    "parentCode": 39,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 395,
+    "nameAr": "مصاريف الصيانة المحتملة",
+    "level": 3,
+    "parentCode": 39,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 396,
+    "nameAr": "خسائر هبوط أسعار المخزون السلعي",
+    "level": 3,
+    "parentCode": 39,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 397,
+    "nameAr": "خسائر هبوط أسعار الاستثمارات المالية",
+    "level": 3,
+    "parentCode": 39,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 411,
+    "nameAr": "إيراد نشاط الصناعات الاستخراجية",
+    "level": 3,
+    "parentCode": 41,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 412,
+    "nameAr": "إيراد نشاط الصناعات التحويلية",
+    "level": 3,
+    "parentCode": 41,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 413,
+    "nameAr": "إيراد نشاط التشييد",
+    "level": 3,
+    "parentCode": 41,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 414,
+    "nameAr": "إيراد نشاط الإنتاج النباتي",
+    "level": 3,
+    "parentCode": 41,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 415,
+    "nameAr": "إيراد نشاط الإنتاج الحيواني",
+    "level": 3,
+    "parentCode": 41,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 416,
+    "nameAr": "إيراد ماء وكهرباء",
+    "level": 3,
+    "parentCode": 41,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 417,
+    "nameAr": "إيراد بيع مخلفات",
+    "level": 3,
+    "parentCode": 41,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 421,
+    "nameAr": "صافي مبيعات بضائع وأراضي بغرض البيع",
+    "level": 3,
+    "parentCode": 42,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 422,
+    "nameAr": "تغير مخزون بضائع وأراضي بغرض البيع",
+    "level": 3,
+    "parentCode": 42,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 423,
+    "nameAr": "عمو لة مستلمة",
+    "level": 3,
+    "parentCode": 42,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 424,
+    "nameAr": "إيراد الفندقة والسياحة",
+    "level": 3,
+    "parentCode": 42,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 425,
+    "nameAr": "إيرادات متنوعة",
+    "level": 3,
+    "parentCode": 42,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 431,
+    "nameAr": "إيراد خدمات النقل",
+    "level": 3,
+    "parentCode": 43,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 432,
+    "nameAr": "إيراد خدمات الاتصالات",
+    "level": 3,
+    "parentCode": 43,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 433,
+    "nameAr": "إيراد خدمات الصيانة والتصليح",
+    "level": 3,
+    "parentCode": 43,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 434,
+    "nameAr": "إيراد خدمات استشارية وفنية",
+    "level": 3,
+    "parentCode": 43,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 435,
+    "nameAr": "إيراد خدمات اجتماعية",
+    "level": 3,
+    "parentCode": 43,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 436,
+    "nameAr": "إيراد انتساب واشتراك",
+    "level": 3,
+    "parentCode": 43,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 437,
+    "nameAr": "إيراد خدمات متنوعة",
+    "level": 3,
+    "parentCode": 43,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 438,
+    "nameAr": "إيجار موجودات ثابتة عدا الأراضي",
+    "level": 3,
+    "parentCode": 43,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 439,
+    "nameAr": "إيراد الرسوم",
+    "level": 3,
+    "parentCode": 43,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 441,
+    "nameAr": "إيراد التشغيل للغير",
+    "level": 3,
+    "parentCode": 44,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 451,
+    "nameAr": "كلفة الموجودات الثابتة المصنعة",
+    "level": 3,
+    "parentCode": 45,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 452,
+    "nameAr": "كلفة الأدوات الاحتياطية المصنعة",
+    "level": 3,
+    "parentCode": 45,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 453,
+    "nameAr": "كلفة مواد التعبئة المتداولة المصنعة",
+    "level": 3,
+    "parentCode": 45,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 461,
+    "nameAr": "فوائد دائنة",
+    "level": 3,
+    "parentCode": 46,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 462,
+    "nameAr": "إيجارات الأراضي",
+    "level": 3,
+    "parentCode": 46,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 463,
+    "nameAr": "إيرادات الاستثمارات المالية",
+    "level": 3,
+    "parentCode": 46,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 471,
+    "nameAr": "إعانات سلع مستوردة",
+    "level": 3,
+    "parentCode": 47,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 472,
+    "nameAr": "إعانات إنتاج محلي",
+    "level": 3,
+    "parentCode": 47,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 473,
+    "nameAr": "إعانات تصدير",
+    "level": 3,
+    "parentCode": 47,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 474,
+    "nameAr": "إعانات أخرى",
+    "level": 3,
+    "parentCode": 47,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 481,
+    "nameAr": "إيرادات التقاعد والضمان الاجتماعي",
+    "level": 3,
+    "parentCode": 48,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 482,
+    "nameAr": "منح تمويلية",
+    "level": 3,
+    "parentCode": 48,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 483,
+    "nameAr": "إيرادات تحويلية متنوعة",
+    "level": 3,
+    "parentCode": 48,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 491,
+    "nameAr": "إيرادات سنوات سابقة",
+    "level": 3,
+    "parentCode": 49,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 492,
+    "nameAr": "إيرادات عرضية",
+    "level": 3,
+    "parentCode": 49,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1111,
+    "nameAr": "أراضي زراعية",
+    "level": 4,
+    "parentCode": 111,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1112,
+    "nameAr": "أراضي بناء",
+    "level": 4,
+    "parentCode": 111,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1113,
+    "nameAr": "أراضي تجارية",
+    "level": 4,
+    "parentCode": 111,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1114,
+    "nameAr": "أراضي سكنية",
+    "level": 4,
+    "parentCode": 111,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1116,
+    "nameAr": "أراضي فضاء",
+    "level": 4,
+    "parentCode": 111,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1117,
+    "nameAr": "أراضي أخرى",
+    "level": 4,
+    "parentCode": 111,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1121,
+    "nameAr": "مباني",
+    "level": 4,
+    "parentCode": 112,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1122,
+    "nameAr": "مخازن وخزانات وسايلوات",
+    "level": 4,
+    "parentCode": 112,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1123,
+    "nameAr": "منشآت سكنية",
+    "level": 4,
+    "parentCode": 112,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1124,
+    "nameAr": "أبار ومناجم ومقالع",
+    "level": 4,
+    "parentCode": 112,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1125,
+    "nameAr": "سدود وقنوات",
+    "level": 4,
+    "parentCode": 112,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1126,
+    "nameAr": "منشآت عائمة",
+    "level": 4,
+    "parentCode": 112,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1127,
+    "nameAr": "طرق وجسور",
+    "level": 4,
+    "parentCode": 112,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1128,
+    "nameAr": "منشآت نقل",
+    "level": 4,
+    "parentCode": 112,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1129,
+    "nameAr": "منشآت أخرى",
+    "level": 4,
+    "parentCode": 112,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1141,
+    "nameAr": "وسائط نقل بالسيارات",
+    "level": 4,
+    "parentCode": 114,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1142,
+    "nameAr": "وسائط نقل بالسكك الحديدية",
+    "level": 4,
+    "parentCode": 114,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1143,
+    "nameAr": "وسائط النقل النهري",
+    "level": 4,
+    "parentCode": 114,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1144,
+    "nameAr": "وسائط النقل البحري",
+    "level": 4,
+    "parentCode": 114,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1145,
+    "nameAr": "وسائط النقل الجوي",
+    "level": 4,
+    "parentCode": 114,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1146,
+    "nameAr": "خطوط أنابيب النفط والغاز",
+    "level": 4,
+    "parentCode": 114,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1151,
+    "nameAr": "عدد",
+    "level": 4,
+    "parentCode": 115,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1152,
+    "nameAr": "قوالب",
+    "level": 4,
+    "parentCode": 115,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1153,
+    "nameAr": "خيم وجوادر",
+    "level": 4,
+    "parentCode": 115,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1161,
+    "nameAr": "أثاث",
+    "level": 4,
+    "parentCode": 116,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1162,
+    "nameAr": "أجهزة تكييف وتبريد",
+    "level": 4,
+    "parentCode": 116,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1163,
+    "nameAr": "حاسبات الكترونية",
+    "level": 4,
+    "parentCode": 116,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1164,
+    "nameAr": "آالت حاسبة وكاتبة واستنساخ",
+    "level": 4,
+    "parentCode": 116,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1165,
+    "nameAr": "أدوات وأجهزة مكاتب",
+    "level": 4,
+    "parentCode": 116,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1166,
+    "nameAr": "ستائر ومفروشات",
+    "level": 4,
+    "parentCode": 116,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1167,
+    "nameAr": "كتب ومراجع علمية",
+    "level": 4,
+    "parentCode": 116,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1171,
+    "nameAr": "نبا تات لأغراض العرض والإنتاج",
+    "level": 4,
+    "parentCode": 117,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1172,
+    "nameAr": "حيوانات لأغراض العرض والإنتاج",
+    "level": 4,
+    "parentCode": 117,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1181,
+    "nameAr": "نفقات التأسيس",
+    "level": 4,
+    "parentCode": 118,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1182,
+    "nameAr": "نفقات قبل التشغيل",
+    "level": 4,
+    "parentCode": 118,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1183,
+    "nameAr": "نفقات استكشاف ومسح",
+    "level": 4,
+    "parentCode": 118,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1184,
+    "nameAr": "نفقات أبحاث وتجارب",
+    "level": 4,
+    "parentCode": 118,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1185,
+    "nameAr": "موجودات ثابتة معنوية",
+    "level": 4,
+    "parentCode": 118,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1186,
+    "nameAr": "ديكورات وتركيبات وقواطع",
+    "level": 4,
+    "parentCode": 118,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1188,
+    "nameAr": "نفقات مؤجلة متنوعة",
+    "level": 4,
+    "parentCode": 118,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1211,
+    "nameAr": "أراضي زراعية",
+    "level": 4,
+    "parentCode": 121,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1212,
+    "nameAr": "أراضي بناء",
+    "level": 4,
+    "parentCode": 121,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1213,
+    "nameAr": "أراضي تجارية",
+    "level": 4,
+    "parentCode": 121,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1214,
+    "nameAr": "أراضي سكنية",
+    "level": 4,
+    "parentCode": 121,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1216,
+    "nameAr": "أراضي فضاء",
+    "level": 4,
+    "parentCode": 121,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1217,
+    "nameAr": "أراضي أخرى",
+    "level": 4,
+    "parentCode": 121,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1221,
+    "nameAr": "مباني",
+    "level": 4,
+    "parentCode": 122,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1222,
+    "nameAr": "مخازن وخزانات وسايلوات",
+    "level": 4,
+    "parentCode": 122,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1223,
+    "nameAr": "منشآت سكنية",
+    "level": 4,
+    "parentCode": 122,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1224,
+    "nameAr": "آبار ومناجم ومقالع",
+    "level": 4,
+    "parentCode": 122,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1225,
+    "nameAr": "سدود وقنوات",
+    "level": 4,
+    "parentCode": 122,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1226,
+    "nameAr": "منشآت عائمة",
+    "level": 4,
+    "parentCode": 122,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1227,
+    "nameAr": "طرق وجسور",
+    "level": 4,
+    "parentCode": 122,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1228,
+    "nameAr": "منشآت نقل",
+    "level": 4,
+    "parentCode": 122,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1229,
+    "nameAr": "منشآت أخرى",
+    "level": 4,
+    "parentCode": 122,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1241,
+    "nameAr": "وسائط نقل بالسيارات",
+    "level": 4,
+    "parentCode": 124,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1242,
+    "nameAr": "وسائط نقل بالسكك الحديدية",
+    "level": 4,
+    "parentCode": 124,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1243,
+    "nameAr": "وسائط النقل النهري",
+    "level": 4,
+    "parentCode": 124,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1244,
+    "nameAr": "وسائط النقل البحري",
+    "level": 4,
+    "parentCode": 124,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1245,
+    "nameAr": "وسائط النقل الجوي",
+    "level": 4,
+    "parentCode": 124,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1246,
+    "nameAr": "خطوط أنابيب النفط والغاز",
+    "level": 4,
+    "parentCode": 124,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1251,
+    "nameAr": "عدد",
+    "level": 4,
+    "parentCode": 125,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1252,
+    "nameAr": "قوالب",
+    "level": 4,
+    "parentCode": 125,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1253,
+    "nameAr": "خيم وجوادر",
+    "level": 4,
+    "parentCode": 125,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1261,
+    "nameAr": "أثاث",
+    "level": 4,
+    "parentCode": 126,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1262,
+    "nameAr": "أجهزة تكييف وتبريد",
+    "level": 4,
+    "parentCode": 126,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1263,
+    "nameAr": "حاسبات الكترونية",
+    "level": 4,
+    "parentCode": 126,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1264,
+    "nameAr": "آالت حاسبة وكاتبة استنساخ",
+    "level": 4,
+    "parentCode": 126,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1265,
+    "nameAr": "أدوات وأجهزة مكاتب",
+    "level": 4,
+    "parentCode": 126,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1266,
+    "nameAr": "ستائر ومفروشات",
+    "level": 4,
+    "parentCode": 126,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1267,
+    "nameAr": "كتب ومراجع علمية",
+    "level": 4,
+    "parentCode": 126,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1271,
+    "nameAr": "نباتات لأغراض العرض والإنتاج",
+    "level": 4,
+    "parentCode": 127,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1272,
+    "nameAr": "حيوانات لأغراض العرض والإنتاج",
+    "level": 4,
+    "parentCode": 127,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1281,
+    "nameAr": "نفقات التأسيس",
+    "level": 4,
+    "parentCode": 128,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1282,
+    "nameAr": "نفقات قبل التشغيل",
+    "level": 4,
+    "parentCode": 128,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1283,
+    "nameAr": "نفقات استكشاف ومسح",
+    "level": 4,
+    "parentCode": 128,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1284,
+    "nameAr": "نفقات أبحاث وتجارب",
+    "level": 4,
+    "parentCode": 128,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1285,
+    "nameAr": "موجودات ثابتة معنوية",
+    "level": 4,
+    "parentCode": 128,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1286,
+    "nameAr": "ديكورات وتركيبات وقواطع",
+    "level": 4,
+    "parentCode": 128,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1288,
+    "nameAr": "نفقات مؤجلة متنوعة",
+    "level": 4,
+    "parentCode": 128,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1291,
+    "nameAr": "دفعات مقدمة",
+    "level": 4,
+    "parentCode": 129,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1292,
+    "nameAr": "اعتمادات مستندية لموجودات ثابتة",
+    "level": 4,
+    "parentCode": 129,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1341,
+    "nameAr": "مخزون مواد التعبئة والتغليف المستهلكة",
+    "level": 4,
+    "parentCode": 134,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1342,
+    "nameAr": "مخزون مواد التعبئة والتغليف المتداولة",
+    "level": 4,
+    "parentCode": 134,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1351,
+    "nameAr": "مخزون اللوازم والمهمات",
+    "level": 4,
+    "parentCode": 135,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1352,
+    "nameAr": "مخزون القرطاسية",
+    "level": 4,
+    "parentCode": 135,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1353,
+    "nameAr": "مخزون الكتب التعليمية",
+    "level": 4,
+    "parentCode": 135,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1354,
+    "nameAr": "مخزون المخلفات والمستهلكات",
+    "level": 4,
+    "parentCode": 135,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1355,
+    "nameAr": "مخزون تجهيزات العاملين",
+    "level": 4,
+    "parentCode": 135,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1361,
+    "nameAr": "مخزون الإنتاج التام",
+    "level": 4,
+    "parentCode": 136,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1362,
+    "nameAr": "مخزون الإنتاج غير التام",
+    "level": 4,
+    "parentCode": 136,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1363,
+    "nameAr": "أعمال تحت التنفيذ",
+    "level": 4,
+    "parentCode": 136,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1364,
+    "nameAr": "ال مخزون النباتي زراعة قائمة",
+    "level": 4,
+    "parentCode": 136,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1365,
+    "nameAr": "ال مخزون الحيواني تحت التكوين",
+    "level": 4,
+    "parentCode": 136,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1371,
+    "nameAr": "مخزون البضائع بغرض البيع",
+    "level": 4,
+    "parentCode": 137,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1372,
+    "nameAr": "الأراضي بغرض الب يع",
+    "level": 4,
+    "parentCode": 137,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1381,
+    "nameAr": "اعتمادات مستندية لحساب الوحدة الاقتصادية",
+    "level": 4,
+    "parentCode": 138,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1382,
+    "nameAr": "بضاعة بطريق الشحن لحساب الوحدة الاقتصادية",
+    "level": 4,
+    "parentCode": 138,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1383,
+    "nameAr": "إعتمادات مستندية لحساب الغير",
+    "level": 4,
+    "parentCode": 138,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1384,
+    "nameAr": "بضاعة بطريق الشحن لحساب الغير",
+    "level": 4,
+    "parentCode": 138,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1385,
+    "nameAr": "حوالات مستندية",
+    "level": 4,
+    "parentCode": 138,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1391,
+    "nameAr": "بضائع لدى الغير",
+    "level": 4,
+    "parentCode": 139,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1411,
+    "nameAr": "قروض طويلة للقطاع العام",
+    "level": 4,
+    "parentCode": 141,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1412,
+    "nameAr": "قروض طويلة للقطاع التعاوني",
+    "level": 4,
+    "parentCode": 141,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1413,
+    "nameAr": "قروض طويلة للقطاع المختلط",
+    "level": 4,
+    "parentCode": 141,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1414,
+    "nameAr": "قروض طويلة للقطاع الخاص",
+    "level": 4,
+    "parentCode": 141,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1415,
+    "nameAr": "قروض طويلة للعالم الخارجي",
+    "level": 4,
+    "parentCode": 141,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1421,
+    "nameAr": "قروض قصيرة للقطاع العام",
+    "level": 4,
+    "parentCode": 142,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1422,
+    "nameAr": "قروض قصيرة للقطاع التعاوني",
+    "level": 4,
+    "parentCode": 142,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1423,
+    "nameAr": "قروض قصيرة للقطاع المختلط",
+    "level": 4,
+    "parentCode": 142,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1424,
+    "nameAr": "قروض قصيرة للقطاع الخاص",
+    "level": 4,
+    "parentCode": 142,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1425,
+    "nameAr": "قروض قصيرة للعالم الخارجي",
+    "level": 4,
+    "parentCode": 142,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1511,
+    "nameAr": "استثمارات طويلة في القطاع العام",
+    "level": 4,
+    "parentCode": 151,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1512,
+    "nameAr": "استثمارات طويلة في القطاع التعاوني",
+    "level": 4,
+    "parentCode": 151,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1513,
+    "nameAr": "استثمارات طويلة في القطاع المختلط",
+    "level": 4,
+    "parentCode": 151,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1514,
+    "nameAr": "استثمارات طويلة في القطاع الخاص",
+    "level": 4,
+    "parentCode": 151,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1515,
+    "nameAr": "استثمارات طويلة في العالم الخارجي",
+    "level": 4,
+    "parentCode": 151,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1521,
+    "nameAr": "استثمارات قصيرة في القطاع العام",
+    "level": 4,
+    "parentCode": 152,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1522,
+    "nameAr": "استثمارات قصيرة في القطاع التعاوني",
+    "level": 4,
+    "parentCode": 152,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1523,
+    "nameAr": "استثمارات قصيرة في القطاع المختلط",
+    "level": 4,
+    "parentCode": 152,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1524,
+    "nameAr": "استثمارات قصيرة في القطاع الخاص",
+    "level": 4,
+    "parentCode": 152,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1525,
+    "nameAr": "استثمارات قصيرة في العالم الخارجي",
+    "level": 4,
+    "parentCode": 152,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1611,
+    "nameAr": "مدينون قطاع عام",
+    "level": 4,
+    "parentCode": 161,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1612,
+    "nameAr": "مدينون قطاع تعاوني",
+    "level": 4,
+    "parentCode": 161,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1613,
+    "nameAr": "مدينون قطاع مختلط",
+    "level": 4,
+    "parentCode": 161,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1614,
+    "nameAr": "مدينون قطاع خاص",
+    "level": 4,
+    "parentCode": 161,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1615,
+    "nameAr": "مدينون عالم خارجي",
+    "level": 4,
+    "parentCode": 161,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1621,
+    "nameAr": "أوراق قبض قطاع عام",
+    "level": 4,
+    "parentCode": 162,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1622,
+    "nameAr": "أوراق قبض قطاع تعاوني",
+    "level": 4,
+    "parentCode": 162,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1623,
+    "nameAr": "أوراق قبض قطاع مختلط",
+    "level": 4,
+    "parentCode": 162,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1624,
+    "nameAr": "أوراق قبض قطاع خاص",
+    "level": 4,
+    "parentCode": 162,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1625,
+    "nameAr": "أوراق قبض قطاع خارجي",
+    "level": 4,
+    "parentCode": 162,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1626,
+    "nameAr": "أوراق قبض برسم التحصيل",
+    "level": 4,
+    "parentCode": 162,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1631,
+    "nameAr": "حسابات جارية مدينة داخل الوحدة الاقتصادية الرئيسة",
+    "level": 4,
+    "parentCode": 163,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1632,
+    "nameAr": "حسابات جارية مدينة داخل الوحدة الاقتصادية الفرعية",
+    "level": 4,
+    "parentCode": 163,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1661,
+    "nameAr": "تأمينات لدى الغير",
+    "level": 4,
+    "parentCode": 166,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1662,
+    "nameAr": "إيرادات مستحقة",
+    "level": 4,
+    "parentCode": 166,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1663,
+    "nameAr": "مصاريف مدفوعة مقدماً",
+    "level": 4,
+    "parentCode": 166,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1664,
+    "nameAr": "طلبات التعويض",
+    "level": 4,
+    "parentCode": 166,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1665,
+    "nameAr": "فروقات موجودات نقدية ومخزنية وثابتة مدينة لظروف عادية",
+    "level": 4,
+    "parentCode": 166,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 1667,
+    "nameAr": "وزارة المالية رواتب إجازات الأمومة",
+    "level": 4,
+    "parentCode": 166,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1668,
+    "nameAr": "وزارة المالية رواتب الملتحقين بالخدمة العسكرية",
+    "level": 4,
+    "parentCode": 166,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1671,
+    "nameAr": "سلف لأغراض النشاط",
+    "level": 4,
+    "parentCode": 167,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1672,
+    "nameAr": "سلف المنتسبين",
+    "level": 4,
+    "parentCode": 167,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1673,
+    "nameAr": "سلف الزواج",
+    "level": 4,
+    "parentCode": 167,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1811,
+    "nameAr": "صندوق المركز",
+    "level": 4,
+    "parentCode": 181,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1812,
+    "nameAr": "صندوق الفروع",
+    "level": 4,
+    "parentCode": 181,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1813,
+    "nameAr": "صندوق المعارض",
+    "level": 4,
+    "parentCode": 181,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1851,
+    "nameAr": "صكوك وحوالات قيد التحصيل",
+    "level": 4,
+    "parentCode": 185,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1852,
+    "nameAr": "حوالات بالطريق",
+    "level": 4,
+    "parentCode": 185,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1853,
+    "nameAr": "صكوك وحوالات مرفوضة",
+    "level": 4,
+    "parentCode": 185,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1921,
+    "nameAr": "الإعتمادات المستندية المستلمة",
+    "level": 4,
+    "parentCode": 192,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1922,
+    "nameAr": "مقابل الإعتمادات المستندية الصادرة",
+    "level": 4,
+    "parentCode": 192,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1923,
+    "nameAr": "خطابات الضمان المستلمة",
+    "level": 4,
+    "parentCode": 192,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1924,
+    "nameAr": "مقابل خطابات الضمان الصادرة",
+    "level": 4,
+    "parentCode": 192,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1925,
+    "nameAr": "العقود",
+    "level": 4,
+    "parentCode": 192,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1941,
+    "nameAr": "فرق الإيجار المحتسب",
+    "level": 4,
+    "parentCode": 194,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1942,
+    "nameAr": "فرق الفوائد المحتسبة",
+    "level": 4,
+    "parentCode": 194,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1943,
+    "nameAr": "فرق تقويم تغير مخزون الإنتاج التام",
+    "level": 4,
+    "parentCode": 194,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 1944,
+    "nameAr": "فرق تقويم تغير مخزون بضائع وأراضي بغرض البيع",
+    "level": 4,
+    "parentCode": 194,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2211,
+    "nameAr": "احتياطي التوسعات",
+    "level": 4,
+    "parentCode": 221,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 2212,
+    "nameAr": "احتياطي استبدال موجودات ثابتة",
+    "level": 4,
+    "parentCode": 221,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2213,
+    "nameAr": "إحتياطي المكاسب الرأسمالية",
+    "level": 4,
+    "parentCode": 221,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2312,
+    "nameAr": "مخصص اندثار مباني وإنشاءات وطرق",
+    "level": 4,
+    "parentCode": 231,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2313,
+    "nameAr": "مخصص اندثار آالت ومعدات",
+    "level": 4,
+    "parentCode": 231,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2314,
+    "nameAr": "مخصص اندثار وسائط نقل وانتقال",
+    "level": 4,
+    "parentCode": 231,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2315,
+    "nameAr": "مخصص اندثار عدد وقوالب",
+    "level": 4,
+    "parentCode": 231,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2316,
+    "nameAr": "مخصص اندثار أثاث وأجهزة مكاتب",
+    "level": 4,
+    "parentCode": 231,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2411,
+    "nameAr": "قروض طويلة الأجل من القطاع العام",
+    "level": 4,
+    "parentCode": 241,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2412,
+    "nameAr": "قروض طويلة الأجل من القطاع التعاوني",
+    "level": 4,
+    "parentCode": 241,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2413,
+    "nameAr": "قروض طويلة الأجل من القطاع المختلط",
+    "level": 4,
+    "parentCode": 241,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2414,
+    "nameAr": "قروض طويلة الأجل من القطاع الخاص",
+    "level": 4,
+    "parentCode": 241,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2415,
+    "nameAr": "قروض طويلة الأجل من العالم الخارجي",
+    "level": 4,
+    "parentCode": 241,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2421,
+    "nameAr": "قروض قصيرة الأجل من القطاع العام",
+    "level": 4,
+    "parentCode": 242,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2422,
+    "nameAr": "قروض قصيرة الأجل من القطاع التعاوني",
+    "level": 4,
+    "parentCode": 242,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2423,
+    "nameAr": "قروض قصيرة الأجل من القطاع المختلط",
+    "level": 4,
+    "parentCode": 242,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2424,
+    "nameAr": "قروض قصيرة الأجل من القطاع الخاص",
+    "level": 4,
+    "parentCode": 242,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2425,
+    "nameAr": "قروض قصيرة الأجل من العالم الخارجي",
+    "level": 4,
+    "parentCode": 242,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2611,
+    "nameAr": "مجهزون قطاع عام",
+    "level": 4,
+    "parentCode": 261,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2612,
+    "nameAr": "مجهزون قط اع تعاوني",
+    "level": 4,
+    "parentCode": 261,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2613,
+    "nameAr": "مجهزون قطاع مختلط",
+    "level": 4,
+    "parentCode": 261,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2614,
+    "nameAr": "مجهزون قطاع خاص",
+    "level": 4,
+    "parentCode": 261,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2615,
+    "nameAr": "مجهزون عالم خارجي",
+    "level": 4,
+    "parentCode": 261,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2616,
+    "nameAr": "مجهزون بالدفع الآ جل",
+    "level": 4,
+    "parentCode": 261,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2621,
+    "nameAr": "أوراق دفع قطاع عام",
+    "level": 4,
+    "parentCode": 262,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2622,
+    "nameAr": "أوراق دفع قطاع تعاوني",
+    "level": 4,
+    "parentCode": 262,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2623,
+    "nameAr": "أوراق دفع قطاع مختلط",
+    "level": 4,
+    "parentCode": 262,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2624,
+    "nameAr": "أوراق دفع قطاع خاص",
+    "level": 4,
+    "parentCode": 262,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2625,
+    "nameAr": "أوراق دفع قطاع خارجي",
+    "level": 4,
+    "parentCode": 262,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2631,
+    "nameAr": "حسابات جارية دائنة داخل الوحدة الاقتصادية الرئيسة",
+    "level": 4,
+    "parentCode": 263,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2632,
+    "nameAr": "حسابات جارية دائنة داخل الوحدة الاقتصادية الفرعية",
+    "level": 4,
+    "parentCode": 263,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2641,
+    "nameAr": "سلف مستلمة مقدماً",
+    "level": 4,
+    "parentCode": 264,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2642,
+    "nameAr": "الذر عات المنجزة",
+    "level": 4,
+    "parentCode": 264,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2661,
+    "nameAr": "تأمينات مستلمة وحسابات التوفير",
+    "level": 4,
+    "parentCode": 266,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 2662,
+    "nameAr": "إيرادات مستلمة مقدماً",
+    "level": 4,
+    "parentCode": 266,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2663,
+    "nameAr": "مصاريف مستحقة",
+    "level": 4,
+    "parentCode": 266,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2664,
+    "nameAr": "رواتب وأجور مستحقة",
+    "level": 4,
+    "parentCode": 266,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2665,
+    "nameAr": "رواتب وأجور معادة",
+    "level": 4,
+    "parentCode": 266,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2666,
+    "nameAr": "هيئة التقاعد الوطنية",
+    "level": 4,
+    "parentCode": 266,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2667,
+    "nameAr": "دائرة التقاعد والضم ان الاجتماعي",
+    "level": 4,
+    "parentCode": 266,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2668,
+    "nameAr": "فروقات نقدية ومخزنية دائنة",
+    "level": 4,
+    "parentCode": 266,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 2669,
+    "nameAr": "تعويضات وغرامات مؤجلة",
+    "level": 4,
+    "parentCode": 266,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2671,
+    "nameAr": "استقطاعات من المنتسبين لحساب الغير",
+    "level": 4,
+    "parentCode": 267,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2672,
+    "nameAr": "استقطاعات من غير المنتسبين لحساب الغير",
+    "level": 4,
+    "parentCode": 267,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2681,
+    "nameAr": "حصة الخزينة العامة",
+    "level": 4,
+    "parentCode": 268,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2682,
+    "nameAr": "حصة العاملين",
+    "level": 4,
+    "parentCode": 268,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2921,
+    "nameAr": "مقابل الإعتمادات المستندية المستلمة",
+    "level": 4,
+    "parentCode": 292,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2922,
+    "nameAr": "الإعتمادات المستندية الصادرة",
+    "level": 4,
+    "parentCode": 292,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2923,
+    "nameAr": "مقابل خطابات الضمان المستلمة",
+    "level": 4,
+    "parentCode": 292,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2924,
+    "nameAr": "خطابات الضمان الصادرة",
+    "level": 4,
+    "parentCode": 292,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2925,
+    "nameAr": "مقابل العقود",
+    "level": 4,
+    "parentCode": 292,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2941,
+    "nameAr": "مقابل فرق الإ يجار المحتسب",
+    "level": 4,
+    "parentCode": 294,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2942,
+    "nameAr": "مقابل فرق الفوائد المحتسبة",
+    "level": 4,
+    "parentCode": 294,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2943,
+    "nameAr": "مقابل فرق تقويم تغير مخزون الإنتاج التام",
+    "level": 4,
+    "parentCode": 294,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 2944,
+    "nameAr": "مقابل فرق تقويم تغير مخزون بضائع وأراضي بغرض البيع",
+    "level": 4,
+    "parentCode": 294,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3111,
+    "nameAr": "رواتب",
+    "level": 4,
+    "parentCode": 311,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3112,
+    "nameAr": "مخصصات الشهادة",
+    "level": 4,
+    "parentCode": 311,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3113,
+    "nameAr": "مخصصات المنصب",
+    "level": 4,
+    "parentCode": 311,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3114,
+    "nameAr": "مخصصات عائلية",
+    "level": 4,
+    "parentCode": 311,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3115,
+    "nameAr": "مخصصات مهنية وفنية",
+    "level": 4,
+    "parentCode": 311,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3116,
+    "nameAr": "أجور أعمال إضافية",
+    "level": 4,
+    "parentCode": 311,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3117,
+    "nameAr": "مخصصات تعويضية",
+    "level": 4,
+    "parentCode": 311,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3118,
+    "nameAr": "مكافآت تشجيعية",
+    "level": 4,
+    "parentCode": 311,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3119,
+    "nameAr": "مخصصات أخرى",
+    "level": 4,
+    "parentCode": 311,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3121,
+    "nameAr": "إجور",
+    "level": 4,
+    "parentCode": 312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3122,
+    "nameAr": "مخصصات الشهادة",
+    "level": 4,
+    "parentCode": 312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3123,
+    "nameAr": "مخصصات المنصب",
+    "level": 4,
+    "parentCode": 312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3124,
+    "nameAr": "مخصصات عائلية",
+    "level": 4,
+    "parentCode": 312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3125,
+    "nameAr": "مخصصات مهنية وفنية",
+    "level": 4,
+    "parentCode": 312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3126,
+    "nameAr": "إجور أعمال إضافية",
+    "level": 4,
+    "parentCode": 312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3127,
+    "nameAr": "مخصصات تعويضية",
+    "level": 4,
+    "parentCode": 312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3128,
+    "nameAr": "مكافآت تشجيعية",
+    "level": 4,
+    "parentCode": 312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3129,
+    "nameAr": "مخصصات أخرى",
+    "level": 4,
+    "parentCode": 312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3141,
+    "nameAr": "حصة الوحدة الاقتصادية في التقاعد",
+    "level": 4,
+    "parentCode": 314,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3142,
+    "nameAr": "التأمين على الموظفين",
+    "level": 4,
+    "parentCode": 314,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3143,
+    "nameAr": "الضمان الصحي للموظفين",
+    "level": 4,
+    "parentCode": 314,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3151,
+    "nameAr": "حصة الوحدة الاقتصادية في الضمان",
+    "level": 4,
+    "parentCode": 315,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3152,
+    "nameAr": "التأمين على العم ال",
+    "level": 4,
+    "parentCode": 315,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3153,
+    "nameAr": "الضمان الصحي للعمال",
+    "level": 4,
+    "parentCode": 315,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3221,
+    "nameAr": "مواد نفطية",
+    "level": 4,
+    "parentCode": 322,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3222,
+    "nameAr": "غاز",
+    "level": 4,
+    "parentCode": 322,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3223,
+    "nameAr": "زيوت وشحوم",
+    "level": 4,
+    "parentCode": 322,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3224,
+    "nameAr": "فحم",
+    "level": 4,
+    "parentCode": 322,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3241,
+    "nameAr": "مواد التعبئة والتغليف المستهلكة",
+    "level": 4,
+    "parentCode": 324,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3242,
+    "nameAr": "مواد التعبئة المتداولة",
+    "level": 4,
+    "parentCode": 324,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3251,
+    "nameAr": "اللوازم والمهمات",
+    "level": 4,
+    "parentCode": 325,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3252,
+    "nameAr": "القرطاسية",
+    "level": 4,
+    "parentCode": 325,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3253,
+    "nameAr": "الكتب التعليمية",
+    "level": 4,
+    "parentCode": 325,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3254,
+    "nameAr": "المخلفات والمستهلكات",
+    "level": 4,
+    "parentCode": 325,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3261,
+    "nameAr": "كساوي",
+    "level": 4,
+    "parentCode": 326,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3262,
+    "nameAr": "مواد غذائية",
+    "level": 4,
+    "parentCode": 326,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3263,
+    "nameAr": "مواد طبية",
+    "level": 4,
+    "parentCode": 326,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3271,
+    "nameAr": "المياه",
+    "level": 4,
+    "parentCode": 327,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 3272,
+    "nameAr": "الكهرباء",
+    "level": 4,
+    "parentCode": 327,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3311,
+    "nameAr": "صيانة مشاتل ومتنزهات وحدائق",
+    "level": 4,
+    "parentCode": 331,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 3312,
+    "nameAr": "صيانة مباني وإنشاءات وطرق",
+    "level": 4,
+    "parentCode": 331,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 3313,
+    "nameAr": "صيانة الآالت والمعدات",
+    "level": 4,
+    "parentCode": 331,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3314,
+    "nameAr": "صيانة وسائط نقل وانتقال",
+    "level": 4,
+    "parentCode": 331,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 3315,
+    "nameAr": "صيانة عدد وقوالب",
+    "level": 4,
+    "parentCode": 331,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3316,
+    "nameAr": "صيانة أث اث وأجهزة مكاتب",
+    "level": 4,
+    "parentCode": 331,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 3331,
+    "nameAr": "دعاية وإعالن",
+    "level": 4,
+    "parentCode": 333,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3332,
+    "nameAr": "نشر وطبع",
+    "level": 4,
+    "parentCode": 333,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3333,
+    "nameAr": "ضيافة",
+    "level": 4,
+    "parentCode": 333,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3334,
+    "nameAr": "مصاريف المعارض",
+    "level": 4,
+    "parentCode": 333,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3335,
+    "nameAr": "احتفالات",
+    "level": 4,
+    "parentCode": 333,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3341,
+    "nameAr": "نقل العاملين",
+    "level": 4,
+    "parentCode": 334,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3342,
+    "nameAr": "نقل السلع والبضائع",
+    "level": 4,
+    "parentCode": 334,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3343,
+    "nameAr": "السفر والإيفاد",
+    "level": 4,
+    "parentCode": 334,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 3344,
+    "nameAr": "اتصالات عامة",
+    "level": 4,
+    "parentCode": 334,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3352,
+    "nameAr": "استئجار مباني وإنشاءات",
+    "level": 4,
+    "parentCode": 335,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3353,
+    "nameAr": "استئجار آالت ومعدات",
+    "level": 4,
+    "parentCode": 335,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3354,
+    "nameAr": "استئجار وسائط نقل وانتقال",
+    "level": 4,
+    "parentCode": 335,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3355,
+    "nameAr": "استئجار عدد وقوالب",
+    "level": 4,
+    "parentCode": 335,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3356,
+    "nameAr": "استئجار أثاث وأج هزة مكاتب",
+    "level": 4,
+    "parentCode": 335,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3361,
+    "nameAr": "اشتراكات وانتماءات",
+    "level": 4,
+    "parentCode": 336,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 3362,
+    "nameAr": "أقساط التأمين",
+    "level": 4,
+    "parentCode": 336,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3363,
+    "nameAr": "مكافآت لغير العاملين عن خدمات مؤداة",
+    "level": 4,
+    "parentCode": 336,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3364,
+    "nameAr": "ضرائب ورسوم مدفوعة لجهات أجنبية",
+    "level": 4,
+    "parentCode": 336,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3365,
+    "nameAr": "خدمات قانونية",
+    "level": 4,
+    "parentCode": 336,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3366,
+    "nameAr": "خدمات مصرفية",
+    "level": 4,
+    "parentCode": 336,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3367,
+    "nameAr": "تدريب وتأهيل",
+    "level": 4,
+    "parentCode": 336,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 3369,
+    "nameAr": "مصروفات خدمية أخرى",
+    "level": 4,
+    "parentCode": 336,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3411,
+    "nameAr": "مبالغ مدفوعة لمقاولين عراقيين",
+    "level": 4,
+    "parentCode": 341,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3412,
+    "nameAr": "مبالغ مدفوعة لمقاولين غير عراقيين",
+    "level": 4,
+    "parentCode": 341,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3511,
+    "nameAr": "مشتريات بضائع بغرض البيع محلية",
+    "level": 4,
+    "parentCode": 351,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3512,
+    "nameAr": "مشتريات بضائع بغرض البيع مستوردة",
+    "level": 4,
+    "parentCode": 351,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 3521,
+    "nameAr": "الأراضي بالأسعار التجارية",
+    "level": 4,
+    "parentCode": 352,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3522,
+    "nameAr": "الأراضي بالأسعار المخفضة",
+    "level": 4,
+    "parentCode": 352,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3611,
+    "nameAr": "فو ائد مدينة محلية",
+    "level": 4,
+    "parentCode": 361,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3612,
+    "nameAr": "فوائد مدينة خارجية",
+    "level": 4,
+    "parentCode": 361,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3811,
+    "nameAr": "رواتب تقاعدية",
+    "level": 4,
+    "parentCode": 381,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3812,
+    "nameAr": "مكافآت تقاعدية",
+    "level": 4,
+    "parentCode": 381,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3831,
+    "nameAr": "تبرعات للغير",
+    "level": 4,
+    "parentCode": 383,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3832,
+    "nameAr": "تعويضات وغرامات",
+    "level": 4,
+    "parentCode": 383,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3833,
+    "nameAr": "ديون مشطوبة",
+    "level": 4,
+    "parentCode": 383,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3834,
+    "nameAr": "نفقات خدمات خاصة",
+    "level": 4,
+    "parentCode": 383,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3835,
+    "nameAr": "إطفاء سلف الزواج",
+    "level": 4,
+    "parentCode": 383,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3836,
+    "nameAr": "حصة الوحدة الاقتصادية في تمويل الجهات ذات النفع العام",
+    "level": 4,
+    "parentCode": 383,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3837,
+    "nameAr": "سلع وخدمات مجانية",
+    "level": 4,
+    "parentCode": 383,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 3838,
+    "nameAr": "سلع وخدمات مخفضة",
+    "level": 4,
+    "parentCode": 383,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 3841,
+    "nameAr": "رسوم إنتاج",
+    "level": 4,
+    "parentCode": 384,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3842,
+    "nameAr": "ضرائب ورسوم أخرى",
+    "level": 4,
+    "parentCode": 384,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3851,
+    "nameAr": "إعانات داخلية",
+    "level": 4,
+    "parentCode": 385,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 3852,
+    "nameAr": "إعانات خارجية",
+    "level": 4,
+    "parentCode": 385,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4111,
+    "nameAr": "صافي المبيعات نشاط الصناعات الاستخراجية",
+    "level": 4,
+    "parentCode": 411,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4112,
+    "nameAr": "تغير مخزون إنتاج تام",
+    "level": 4,
+    "parentCode": 411,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4113,
+    "nameAr": "تغير مخزون إنتاج غير تام",
+    "level": 4,
+    "parentCode": 411,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4121,
+    "nameAr": "صافي المبيعات نشاط الصناعات التحويلية",
+    "level": 4,
+    "parentCode": 412,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4122,
+    "nameAr": "تغير مخزون إنتاج تام",
+    "level": 4,
+    "parentCode": 412,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4123,
+    "nameAr": "تغير مخزون إنتاج غير تام",
+    "level": 4,
+    "parentCode": 412,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4131,
+    "nameAr": "إيرادات ذرعات منجزة",
+    "level": 4,
+    "parentCode": 413,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4132,
+    "nameAr": "تغير أعمال تحت التنفيذ",
+    "level": 4,
+    "parentCode": 413,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4141,
+    "nameAr": "صافي مبيعات الإنتاج النباتي",
+    "level": 4,
+    "parentCode": 414,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4142,
+    "nameAr": "تغير مخزون إنتاج تام",
+    "level": 4,
+    "parentCode": 414,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4143,
+    "nameAr": "تغير مخزون الإنتاج النباتي زراعة قائمة",
+    "level": 4,
+    "parentCode": 414,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4151,
+    "nameAr": "صافي مبيعات إنتاج حيواني",
+    "level": 4,
+    "parentCode": 415,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4152,
+    "nameAr": "تغير مخزون إنتاج تام",
+    "level": 4,
+    "parentCode": 415,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4153,
+    "nameAr": "تغير مخزون الإنتاج الحيواني تحت التكوين",
+    "level": 4,
+    "parentCode": 415,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4161,
+    "nameAr": "إيراد الماء",
+    "level": 4,
+    "parentCode": 416,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 4162,
+    "nameAr": "إيراد كهرباء",
+    "level": 4,
+    "parentCode": 416,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4211,
+    "nameAr": "صافي مبيعات بضائع بغرض البيع",
+    "level": 4,
+    "parentCode": 421,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4212,
+    "nameAr": "صافي مبيعات أراضي بغرض البيع",
+    "level": 4,
+    "parentCode": 421,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 4221,
+    "nameAr": "تغير مخزون بضائع بغرض البيع",
+    "level": 4,
+    "parentCode": 422,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4222,
+    "nameAr": "تغير الأ راضي بغرض البيع",
+    "level": 4,
+    "parentCode": 422,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 4371,
+    "nameAr": "إيراد خدمات التنظيف",
+    "level": 4,
+    "parentCode": 437,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4372,
+    "nameAr": "إيراد خدمات التبليط",
+    "level": 4,
+    "parentCode": 437,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4382,
+    "nameAr": "إيجار مباني",
+    "level": 4,
+    "parentCode": 438,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 4383,
+    "nameAr": "إيجار آالت ومعدات",
+    "level": 4,
+    "parentCode": 438,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4384,
+    "nameAr": "إيجار وسائط نقل",
+    "level": 4,
+    "parentCode": 438,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4391,
+    "nameAr": "رسوم الأعمال والمهن",
+    "level": 4,
+    "parentCode": 439,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4392,
+    "nameAr": "رسوم الإعالن",
+    "level": 4,
+    "parentCode": 439,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4393,
+    "nameAr": "رسوم منح وتجديد الإ جازات",
+    "level": 4,
+    "parentCode": 439,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4395,
+    "nameAr": "رسوم أخرى",
+    "level": 4,
+    "parentCode": 439,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4811,
+    "nameAr": "مساهمات التقاعد والضمان الاجتماعي",
+    "level": 4,
+    "parentCode": 481,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4812,
+    "nameAr": "حصة الضمان من أرباح الوحدات الإقتصادية",
+    "level": 4,
+    "parentCode": 481,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4821,
+    "nameAr": "منحة الخزينة العامة",
+    "level": 4,
+    "parentCode": 482,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4822,
+    "nameAr": "منح الوحد ات الاقتصادية الرئيسة أو التابعة",
+    "level": 4,
+    "parentCode": 482,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4831,
+    "nameAr": "تبرعات مستلمة",
+    "level": 4,
+    "parentCode": 483,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 4832,
+    "nameAr": "تعويضات وغرامات",
+    "level": 4,
+    "parentCode": 483,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 4833,
+    "nameAr": "ديون سبق شطبها",
+    "level": 4,
+    "parentCode": 483,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 16661,
+    "nameAr": "فروقات نقدية",
+    "level": 4,
+    "parentCode": 166,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 16662,
+    "nameAr": "فروقات مخزنية",
+    "level": 4,
+    "parentCode": 166,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 16663,
+    "nameAr": "فروقات موجودات ثابتة",
+    "level": 4,
+    "parentCode": 166,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11111,
+    "nameAr": "كلفة الشراء",
+    "level": 5,
+    "parentCode": 1111,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11112,
+    "nameAr": "كلفة استصالح الأراضي",
+    "level": 5,
+    "parentCode": 1111,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 11211,
+    "nameAr": "مباني صناعية",
+    "level": 5,
+    "parentCode": 1121,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11212,
+    "nameAr": "مباني تجارية",
+    "level": 5,
+    "parentCode": 1121,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11213,
+    "nameAr": "مباني خدمية",
+    "level": 5,
+    "parentCode": 1121,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11214,
+    "nameAr": "مباني ترفيهية",
+    "level": 5,
+    "parentCode": 1121,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11215,
+    "nameAr": "مباني صحية",
+    "level": 5,
+    "parentCode": 1121,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11241,
+    "nameAr": "أبار",
+    "level": 5,
+    "parentCode": 1124,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11242,
+    "nameAr": "مناجم",
+    "level": 5,
+    "parentCode": 1124,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11243,
+    "nameAr": "مقالع",
+    "level": 5,
+    "parentCode": 1124,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11281,
+    "nameAr": "خطوط السكك الحديدية",
+    "level": 5,
+    "parentCode": 1128,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11282,
+    "nameAr": "أرصفة الموانئ والمراسي",
+    "level": 5,
+    "parentCode": 1128,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 11283,
+    "nameAr": "مدارج المطارات",
+    "level": 5,
+    "parentCode": 1128,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11292,
+    "nameAr": "أحواض مائية",
+    "level": 5,
+    "parentCode": 1129,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11293,
+    "nameAr": "بيوت زجاجية",
+    "level": 5,
+    "parentCode": 1129,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11295,
+    "nameAr": "خطوط الكهرباء والهاتف",
+    "level": 5,
+    "parentCode": 1129,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11411,
+    "nameAr": "وسائط نقل الركاب",
+    "level": 5,
+    "parentCode": 1141,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11412,
+    "nameAr": "وسائط نقل البضائع",
+    "level": 5,
+    "parentCode": 1141,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11413,
+    "nameAr": "وسائط نقل أخرى",
+    "level": 5,
+    "parentCode": 1141,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11711,
+    "nameAr": "نباتات لأغراض العرض",
+    "level": 5,
+    "parentCode": 1171,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11712,
+    "nameAr": "نباتات لأغراض الإنتاج",
+    "level": 5,
+    "parentCode": 1171,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11721,
+    "nameAr": "حيوانات لأغراض العرض",
+    "level": 5,
+    "parentCode": 1172,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 11722,
+    "nameAr": "حيوانات لأغراض الإنتاج",
+    "level": 5,
+    "parentCode": 1172,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12111,
+    "nameAr": "كلفة الشراء",
+    "level": 5,
+    "parentCode": 1211,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12112,
+    "nameAr": "كلفة استصالح الأراضي",
+    "level": 5,
+    "parentCode": 1211,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 12211,
+    "nameAr": "مباني صناعية",
+    "level": 5,
+    "parentCode": 1221,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12212,
+    "nameAr": "مباني تجارية",
+    "level": 5,
+    "parentCode": 1221,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12213,
+    "nameAr": "مباني خدمية",
+    "level": 5,
+    "parentCode": 1221,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12214,
+    "nameAr": "مباني ترفيهية",
+    "level": 5,
+    "parentCode": 1221,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12215,
+    "nameAr": "مباني صحية",
+    "level": 5,
+    "parentCode": 1221,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12241,
+    "nameAr": "آبار",
+    "level": 5,
+    "parentCode": 1224,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12242,
+    "nameAr": "مناجم",
+    "level": 5,
+    "parentCode": 1224,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12243,
+    "nameAr": "مقالع",
+    "level": 5,
+    "parentCode": 1224,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12281,
+    "nameAr": "خطوط السكك الحديدية",
+    "level": 5,
+    "parentCode": 1228,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12282,
+    "nameAr": "أرصفة الموانئ والمراسي",
+    "level": 5,
+    "parentCode": 1228,
+    "type": "Asset",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 12283,
+    "nameAr": "مدارج المطارات",
+    "level": 5,
+    "parentCode": 1228,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12292,
+    "nameAr": "أحواض مائية",
+    "level": 5,
+    "parentCode": 1229,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12293,
+    "nameAr": "بيوت زجاجية",
+    "level": 5,
+    "parentCode": 1229,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12295,
+    "nameAr": "خطوط الكهرباء والهاتف",
+    "level": 5,
+    "parentCode": 1229,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12411,
+    "nameAr": "وسائط نقل الركاب",
+    "level": 5,
+    "parentCode": 1241,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12412,
+    "nameAr": "وسائط نقل البضائع",
+    "level": 5,
+    "parentCode": 1241,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12413,
+    "nameAr": "وسائط نقل أخرى",
+    "level": 5,
+    "parentCode": 1241,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12711,
+    "nameAr": "نباتات لأغراض العرض",
+    "level": 5,
+    "parentCode": 1271,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12712,
+    "nameAr": "نباتات لأغراض الإنتاج",
+    "level": 5,
+    "parentCode": 1271,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12721,
+    "nameAr": "حيوانات لأغراض العرض",
+    "level": 5,
+    "parentCode": 1272,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 12722,
+    "nameAr": "حيوانات لأغراض الإنتاج",
+    "level": 5,
+    "parentCode": 1272,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 13541,
+    "nameAr": "مخزون المخلفات والمستهلكات لظروف اعتيادية",
+    "level": 5,
+    "parentCode": 1354,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 13542,
+    "nameAr": "مخزون المخلفات والمستهلكات لظروف غير اعتيادية",
+    "level": 5,
+    "parentCode": 1354,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 13721,
+    "nameAr": "الأراضي بالأسعار التجارية",
+    "level": 5,
+    "parentCode": 1372,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 13722,
+    "nameAr": "الأراضي بالأسعار المخفضة",
+    "level": 5,
+    "parentCode": 1372,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 16611,
+    "nameAr": "تأمينات لدى الغير قصيرة الأجل",
+    "level": 5,
+    "parentCode": 1661,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 16612,
+    "nameAr": "تأمينات لدى الغير طويلة الأجل",
+    "level": 5,
+    "parentCode": 1661,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 16651,
+    "nameAr": "فروقات نقدية",
+    "level": 5,
+    "parentCode": 1665,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 16652,
+    "nameAr": "فروقات مخزنية",
+    "level": 5,
+    "parentCode": 1665,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 16653,
+    "nameAr": "فروقات موجودات ثابتة",
+    "level": 5,
+    "parentCode": 1665,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 22111,
+    "nameAr": "احتياطي توسعات مستخدم",
+    "level": 5,
+    "parentCode": 2211,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 22112,
+    "nameAr": "احتياطي توسعات غير مستخدم",
+    "level": 5,
+    "parentCode": 2211,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 26611,
+    "nameAr": "تأمينات مستلمة قصيرة الأجل",
+    "level": 5,
+    "parentCode": 2661,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 26612,
+    "nameAr": "تأمينات مستلمة طويلة الأجل",
+    "level": 5,
+    "parentCode": 2661,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 26613,
+    "nameAr": "حسابات التوفير",
+    "level": 5,
+    "parentCode": 2661,
+    "type": "Liability",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 26681,
+    "nameAr": "فروقات نقدية دائنة",
+    "level": 5,
+    "parentCode": 2668,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 26682,
+    "nameAr": "فروقات مخزنية دائنة",
+    "level": 5,
+    "parentCode": 2668,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 32711,
+    "nameAr": "مياه شرب",
+    "level": 5,
+    "parentCode": 3271,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 32712,
+    "nameAr": "مياه سقي مياه خام",
+    "level": 5,
+    "parentCode": 3271,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33111,
+    "nameAr": "صيانة مشاتل",
+    "level": 5,
+    "parentCode": 3311,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33112,
+    "nameAr": "صيانة متنزهات",
+    "level": 5,
+    "parentCode": 3311,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33113,
+    "nameAr": "صيانة حدائق",
+    "level": 5,
+    "parentCode": 3311,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33121,
+    "nameAr": "صيانة مباني",
+    "level": 5,
+    "parentCode": 3312,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 33122,
+    "nameAr": "صيانة مخازن وخزانات وسايلوات",
+    "level": 5,
+    "parentCode": 3312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33123,
+    "nameAr": "صيانة منشآت سكنية",
+    "level": 5,
+    "parentCode": 3312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33124,
+    "nameAr": "صيانة آبار ومناجم ومقالع",
+    "level": 5,
+    "parentCode": 3312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33125,
+    "nameAr": "صيانة سدود وقنوات",
+    "level": 5,
+    "parentCode": 3312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33126,
+    "nameAr": "صيانة منشآت عائمة",
+    "level": 5,
+    "parentCode": 3312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33127,
+    "nameAr": "صيانة طرق وجسور",
+    "level": 5,
+    "parentCode": 3312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33128,
+    "nameAr": "صيانة منشآت نقل",
+    "level": 5,
+    "parentCode": 3312,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33129,
+    "nameAr": "صيانة منشآت أخرى",
+    "level": 5,
+    "parentCode": 3312,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 33141,
+    "nameAr": "صيانة وسائط نقل بالسيارات",
+    "level": 5,
+    "parentCode": 3314,
+    "type": "Expense",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 33142,
+    "nameAr": "صيانة وسائط نقل بالسكك الحديدية",
+    "level": 5,
+    "parentCode": 3314,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33143,
+    "nameAr": "صيانة وسائط النقل النهري",
+    "level": 5,
+    "parentCode": 3314,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33144,
+    "nameAr": "صيانة وسائط النقل البحري",
+    "level": 5,
+    "parentCode": 3314,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33145,
+    "nameAr": "صيانة وسائط النقل الجوي",
+    "level": 5,
+    "parentCode": 3314,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33146,
+    "nameAr": "صيانة خطوط أنابيب النفط والغاز",
+    "level": 5,
+    "parentCode": 3314,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33161,
+    "nameAr": "صيانة أثاث",
+    "level": 5,
+    "parentCode": 3316,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33162,
+    "nameAr": "صيانة أجهزة تكييف وتبريد",
+    "level": 5,
+    "parentCode": 3316,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33163,
+    "nameAr": "صيانة حاسبات الكترونية",
+    "level": 5,
+    "parentCode": 3316,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33164,
+    "nameAr": "صيانة آالت حاسبة وكاتبة واستنساخ",
+    "level": 5,
+    "parentCode": 3316,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33165,
+    "nameAr": "صيانة أدوات وأجهزة مكاتب",
+    "level": 5,
+    "parentCode": 3316,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33167,
+    "nameAr": "صيانة كتب ومراجع علمية",
+    "level": 5,
+    "parentCode": 3316,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33431,
+    "nameAr": "السفر والإيفاد لأغراض التدريب والدراسة",
+    "level": 5,
+    "parentCode": 3343,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33432,
+    "nameAr": "السفر والإيفاد لأغراض النشاط",
+    "level": 5,
+    "parentCode": 3343,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33611,
+    "nameAr": "اشتراكات وانتماءات داخلية",
+    "level": 5,
+    "parentCode": 3361,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33612,
+    "nameAr": "اشتراكات وانتماءات خارجية",
+    "level": 5,
+    "parentCode": 3361,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33671,
+    "nameAr": "مخصصات الطلبة والمتدربين",
+    "level": 5,
+    "parentCode": 3367,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 33672,
+    "nameAr": "أجور تدريب والدراسة",
+    "level": 5,
+    "parentCode": 3367,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 35121,
+    "nameAr": "مشتريات لحساب الوحدة الاقتصادية",
+    "level": 5,
+    "parentCode": 3512,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 35122,
+    "nameAr": "مش تريات لحساب الغير طلبيات خاصة",
+    "level": 5,
+    "parentCode": 3512,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 35123,
+    "nameAr": "مشتريات نماذج تجارية",
+    "level": 5,
+    "parentCode": 3512,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 35124,
+    "nameAr": "مشتريات بغرض البيع متضررة",
+    "level": 5,
+    "parentCode": 3512,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 38371,
+    "nameAr": "سلع وخدمات مجانية مقدمة بموجب التشريعات",
+    "level": 5,
+    "parentCode": 3837,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 38372,
+    "nameAr": "سلع وخدمات مجانية بموجب قرارات الإدارة",
+    "level": 5,
+    "parentCode": 3837,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 38381,
+    "nameAr": "سلع وخدمات مخفضة مقدمة بموجب التشريعات",
+    "level": 5,
+    "parentCode": 3838,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 38382,
+    "nameAr": "سلع وخدمات مخفضة مقدمة بموجب قرارات إدارية",
+    "level": 5,
+    "parentCode": 3838,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 41611,
+    "nameAr": "إيراد ماء الشرب",
+    "level": 5,
+    "parentCode": 4161,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 41612,
+    "nameAr": "إيراد ماء خام",
+    "level": 5,
+    "parentCode": 4161,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 42121,
+    "nameAr": "الأراضي بالأسعار التجارية",
+    "level": 5,
+    "parentCode": 4212,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 42122,
+    "nameAr": "الأراضي بالأسعار المخفضة",
+    "level": 5,
+    "parentCode": 4212,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 42221,
+    "nameAr": "الأراضي بالأسعار التجارية",
+    "level": 5,
+    "parentCode": 4222,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 42222,
+    "nameAr": "الأراضي بالأسعار المخفضة",
+    "level": 5,
+    "parentCode": 4222,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 43821,
+    "nameAr": "إيجار مباني سكنية",
+    "level": 5,
+    "parentCode": 4382,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 43822,
+    "nameAr": "إيجار مباني تجارية",
+    "level": 5,
+    "parentCode": 4382,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 43823,
+    "nameAr": "إيجار مباني خدمية",
+    "level": 5,
+    "parentCode": 4382,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 48321,
+    "nameAr": "تعويضات",
+    "level": 5,
+    "parentCode": 4832,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 48322,
+    "nameAr": "غرامات",
+    "level": 5,
+    "parentCode": 4832,
+    "type": "Revenue",
+    "isPosting": false,
+    "isActive": true
+  },
+  {
+    "code": 111121,
+    "nameAr": "أراضي الحدائق والمتنزهات",
+    "level": 6,
+    "parentCode": 11112,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 111122,
+    "nameAr": "أراضي المشاتل",
+    "level": 6,
+    "parentCode": 11112,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 112821,
+    "nameAr": "أرصفة موانئ",
+    "level": 6,
+    "parentCode": 11282,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 112822,
+    "nameAr": "المراسي",
+    "level": 6,
+    "parentCode": 11282,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 121121,
+    "nameAr": "أراضي الحدائق والمتنزهات",
+    "level": 6,
+    "parentCode": 12112,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 121122,
+    "nameAr": "أراضي المشاتل",
+    "level": 6,
+    "parentCode": 12112,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 122821,
+    "nameAr": "أرصفة الموانئ",
+    "level": 6,
+    "parentCode": 12282,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 122822,
+    "nameAr": "المراسي",
+    "level": 6,
+    "parentCode": 12282,
+    "type": "Asset",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 266131,
+    "nameAr": "توفير عادي",
+    "level": 6,
+    "parentCode": 26613,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 266132,
+    "nameAr": "توفير مدرسي",
+    "level": 6,
+    "parentCode": 26613,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 266133,
+    "nameAr": "حوالات داخلية",
+    "level": 6,
+    "parentCode": 26613,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 266134,
+    "nameAr": "حوالات خارجية",
+    "level": 6,
+    "parentCode": 26613,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 266135,
+    "nameAr": "تحاويل بريدية",
+    "level": 6,
+    "parentCode": 26613,
+    "type": "Liability",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 331211,
+    "nameAr": "صيانة مباني صناعية",
+    "level": 6,
+    "parentCode": 33121,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 331212,
+    "nameAr": "صيانة مباني تجارية",
+    "level": 6,
+    "parentCode": 33121,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 331213,
+    "nameAr": "صيانة مباني خدمية",
+    "level": 6,
+    "parentCode": 33121,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 331214,
+    "nameAr": "صيانة مباني ترفيهية",
+    "level": 6,
+    "parentCode": 33121,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 331215,
+    "nameAr": "صيانة مباني صحية",
+    "level": 6,
+    "parentCode": 33121,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 331292,
+    "nameAr": "صيانة أحواض مائية",
+    "level": 6,
+    "parentCode": 33129,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 331293,
+    "nameAr": "صيانة بيوت زجاجية",
+    "level": 6,
+    "parentCode": 33129,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 331295,
+    "nameAr": "خطوط الكهرباء والهاتف",
+    "level": 6,
+    "parentCode": 33129,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 331411,
+    "nameAr": "صيانة وسائط نقل الركاب",
+    "level": 6,
+    "parentCode": 33141,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 331412,
+    "nameAr": "صيانة وسائط نقل البضائع",
+    "level": 6,
+    "parentCode": 33141,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 331413,
+    "nameAr": "صيانة وسائط نقل أخرى",
+    "level": 6,
+    "parentCode": 33141,
+    "type": "Expense",
+    "isPosting": true,
+    "isActive": true
+  },
+  {
+    "code": 483222,
+    "nameAr": "إيراد غرامات أخرى",
+    "level": 6,
+    "parentCode": 48322,
+    "type": "Revenue",
+    "isPosting": true,
+    "isActive": true
+  }
+]

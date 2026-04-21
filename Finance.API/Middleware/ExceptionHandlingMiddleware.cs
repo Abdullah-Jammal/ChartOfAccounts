@@ -1,4 +1,5 @@
 using Finance.Application.Common.Exceptions;
+using Finance.Domain.Common;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 
@@ -38,6 +39,12 @@ public class ExceptionHandlingMiddleware(
                     .ToDictionary(
                         group => group.Key,
                         group => group.Select(error => error.ErrorMessage).ToArray());
+                break;
+
+            case DomainException:
+                statusCode = StatusCodes.Status400BadRequest;
+                title = "Business Rule Violated";
+                detail = exception.Message;
                 break;
 
             case UnauthorizedException:

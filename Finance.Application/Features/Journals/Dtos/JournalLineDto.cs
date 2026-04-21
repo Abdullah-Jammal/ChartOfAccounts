@@ -1,6 +1,6 @@
-namespace Finance.Application.Features.Journal.Dtos;
+namespace Finance.Application.Features.Journals.Dtos;
 
-public record JournalEntryLineDto(
+public record JournalLineDto(
     int Id,
     int AccountId,
     int AccountCode,

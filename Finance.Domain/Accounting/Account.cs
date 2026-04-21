@@ -1,3 +1,5 @@
+using Finance.Domain.Common;
+
 namespace Finance.Domain.Accounting;
 
 public class Account
@@ -44,5 +46,18 @@ public class Account
             IsActive = isActive,
             CreatedAt = createdAt
         };
+    }
+
+    public void EnsureCanPost()
+    {
+        if (!IsPosting)
+        {
+            throw new DomainException($"Account {Code} is not a posting account.");
+        }
+
+        if (!IsActive)
+        {
+            throw new DomainException($"Account {Code} is inactive.");
+        }
     }
 }

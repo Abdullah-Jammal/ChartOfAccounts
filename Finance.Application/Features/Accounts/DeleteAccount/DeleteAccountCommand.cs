@@ -28,7 +28,7 @@ public class DeleteAccountCommandHandler(IApplicationDbContext dbContext)
             throw new ConflictException("Cannot delete an account that has children.");
         }
 
-        var hasJournalLines = await dbContext.JournalEntryLines
+        var hasJournalLines = await dbContext.JournalLines
             .AnyAsync(line => line.AccountId == account.Id, cancellationToken);
 
         if (hasJournalLines)

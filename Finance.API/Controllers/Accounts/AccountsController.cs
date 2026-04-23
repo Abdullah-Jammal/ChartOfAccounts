@@ -1,6 +1,7 @@
 using Finance.Application.Features.Accounts.CreateAccount;
 using Finance.Application.Features.Accounts.DeleteAccount;
 using Finance.Application.Features.Accounts.Dtos;
+using Finance.Application.Features.Accounts.GetAccountBalance;
 using Finance.Application.Features.Accounts.GetAccountsTree;
 using Finance.Application.Features.Accounts.GetLeafAccounts;
 using Finance.Application.Features.Accounts.SearchAccounts;
@@ -36,6 +37,21 @@ public class AccountsController(ISender sender) : ControllerBase
         CancellationToken cancellationToken)
     {
         var result = await sender.Send(new SearchAccountsQuery(query), cancellationToken);
+        return Ok(result);
+    }
+
+    [HttpGet("{id:int}/balance")]
+    [ProducesResponseType(typeof(AccountBalanceDto), StatusCodes.Status200OK)]
+    public async Task<ActionResult<AccountBalanceDto>> GetBalance(
+        int id,
+        [FromQuery] DateOnly? asOfDate,
+        [FromQuery] bool? includeChildren,
+        CancellationToken cancellationToken)
+    {
+        var result = await sender.Send(
+            new GetAccountBalanceQuery(id, asOfDate, includeChildren ?? true),
+            cancellationToken);
+
         return Ok(result);
     }
 

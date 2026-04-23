@@ -1,5 +1,8 @@
 using Finance.Application.Common.Interfaces.Auth;
+using Finance.Application.Common.Interfaces.Accounting;
 using Finance.Application.Common.Interfaces.Persistence;
+using Finance.Application.Common.Interfaces.Reports;
+using Finance.Infrastructure.Accounting;
 using Finance.Infrastructure.Authentication.Configuration;
 using Finance.Infrastructure.Authentication.Services;
 using Finance.Infrastructure.Identity;
@@ -7,6 +10,7 @@ using Finance.Infrastructure.Identity.Entity;
 using Finance.Infrastructure.Identity.Services;
 using Finance.Infrastructure.Persistence.Initialisation;
 using Finance.Infrastructure.Persistence.SeedData;
+using Finance.Infrastructure.Reports;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -63,6 +67,8 @@ public static class DependencyInjection
 
         services.AddScoped<IJwtTokenProvider, JwtTokenProvider>();
         services.AddScoped<IAuthService, AuthService>();
+        services.AddScoped<IJournalGenerator, JournalGenerator>();
+        services.AddScoped<IReportExportService, ReportExportService>();
         services.AddScoped<IApplicationDbInitializer, ApplicationDbInitializer>();
         services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
         services.AddScoped<IChartOfAccountsSeeder, ChartOfAccountsSeeder>();

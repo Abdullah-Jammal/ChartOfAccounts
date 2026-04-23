@@ -1,5 +1,6 @@
 using Finance.Application.Common.Interfaces.Persistence;
 using Finance.Domain.Accounting;
+using Finance.Domain.Transactions;
 using Finance.Infrastructure.Identity.Entity;
 using Finance.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Identity;
@@ -13,6 +14,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IApplica
     public DbSet<Account> Accounts => Set<Account>();
     public DbSet<Journal> Journals => Set<Journal>();
     public DbSet<JournalLine> JournalLines => Set<JournalLine>();
+    public DbSet<BusinessTransaction> BusinessTransactions => Set<BusinessTransaction>();
     public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
 
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
